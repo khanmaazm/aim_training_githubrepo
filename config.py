@@ -1,0 +1,10 @@
+DEBUG = False# Turns on debugging features in Flask
+BCRYPT_LOG_ROUNDS = 12# Configuration for the Flask-Bcrypt extension
+MAIL_FROM_EMAIL = "mohamed.khan@dubaiholding.com"# For use in application emails
+BASIC_AUTH_USERNAME = "modelusername"
+BASIC_AUTH_PASSWORD = "modelpassword"
+DB_USERNAME = "damchurnpredusername"
+DB_PASSWORD = "damchurnpredpassword"
+DB_SERVER = "tcp:sqlsvrjumdev.database.windows.net,1433"
+DB_NAME = "sqldbjumdev"
+RUNTYPE = "PROD"
