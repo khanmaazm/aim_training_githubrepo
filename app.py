@@ -10,7 +10,6 @@ def awshomepage():
 
 @app.route('/azure', methods = ['GET'])
 def azurehomepage():
-
     return "Second Function Return - This is Azure Home PAge"
 
 app.run()
