@@ -1,10 +1,13 @@
 import flask
 app = flask.Flask(__name__)
-@app.route('/')
+@app.route('/')
 def home():
-    return "Default Home Function Return"
-@app.route('/second', methods = ['GET'])
-def home2():
-    return "Second Function Return"
+    return "Simple output"
 
-app.run()
+@app.route('/aws', methods = ['GET'])
+def awshomepage():
+    return "Second Function Return - This is AWS Home PAge"
+
+@app.route('/azure', methods = ['GET'])
+def azurehomepage():
+    return "Second Function Return - This is Azure Home PAge"
