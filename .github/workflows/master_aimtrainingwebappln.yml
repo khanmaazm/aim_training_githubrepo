@@ -32,4 +32,4 @@ jobs:
       with:
         app-name: 'aimtrainingwebappln'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_077ed62be52c468fb9a8afa364d7f684 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_908bdf99a1244e99a6a22fd6e47c1e31 }}
