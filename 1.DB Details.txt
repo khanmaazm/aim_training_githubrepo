@@ -1,0 +1,11 @@
+Server Name : aimindsdbsrvr
+Server Admin User : aimindsdbosuser
+Server Admin Password : aiminds123?
+
+Database
+DB Admin User : 
+DB Admin User Password : 
+
+
+
+On One Windows server -> Multiple Databases

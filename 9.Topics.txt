@@ -1,0 +1,8 @@
+Primary Key
+Foreign Key
+Indexes
+Joins
+Inner query
+sub query
+Group by 
+having
